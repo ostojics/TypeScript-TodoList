@@ -1,0 +1,26 @@
+.todo {
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Cabin', 'sans-serf';
+    font-weight: 400;
+    padding: 5px;
+}
+
+.todo-text {
+    background-color: whitesmoke;
+    flex: 2;
+    padding: 0.625rem;
+    margin-right: 0.3125rem;
+}
+
+.todo-icon {
+    background-color: #ff6f47;
+    padding: 0.625rem;
+    transition: all .2;
+}
+
+.todo-icon:hover {
+    cursor: pointer;
+} 
